@@ -11,4 +11,15 @@ alert(val/38.40 , "GBP");
 }
 
 
+Const sum = prompt("Enter the summ of goods");
+
+If (sum >= 200 && sum < 300) {
+Alert("Summ", sum*2/100);
+} else If (sum >= 300 && sum < 500) {
+Alert("Summ", sum*5/100); 
+} else If (sum >= 500) {
+Alert("Summ", sum*7/100);
+} else {
+Alert("The summ is too low");
+}
 
