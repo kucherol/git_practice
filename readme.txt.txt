@@ -39,5 +39,20 @@ Const second = prompt("What is the avarage radius od the earth (km) ? Choose the
 Const third = prompt("How fast our planet move around the sun (km/s) ? Choose the correct answer: 100, 80, 30.");
 Let points = 0;
 
-If (first == 382500) 
+If (first == 382500) {
+Points = points+2;
+} 
+If (second == 6371) {
+Points = points+2;
+} 
+If (third == 30) {
+Points = points+2;
+} 
+If (points == 6) {
+Alert(Congratulations! U are a future astronaut!! );
+} else {
+Alert("Sorry, your score ", points);
+}
+
+
 
