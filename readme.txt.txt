@@ -34,4 +34,6 @@ Alert("The circle could be inserted into the square");
 Alert("The circle could not be inserted into the square");
 }
 
-
+Let first = prompt("What is the avarage distance from earth to the moon (km) ? Choose the correct answer: 382500, 155600, 550000.");
+Let second = prompt("What is the avarage radius od the earth (km) ? Choose the correct answer: 18150, 6371, 5284.");
+Let third = prompt("What ");
