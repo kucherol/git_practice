@@ -23,3 +23,15 @@ Alert("Summ", sum*7/100);
 Alert("The summ is too low");
 }
 
+Const p = prompt("Enter the square perimeter");
+Const l = prompt("Enter the circle length");
+Const R = l/(2*3.14);
+Const r = (p/4)/2;
+
+If (r >= R) {
+Alert("The circle could be inserted into the square");
+} else {
+Alert("The circle could not be inserted into the square");
+}
+
+
